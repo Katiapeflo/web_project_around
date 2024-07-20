@@ -1,0 +1,31 @@
+.header{
+width: 100%;
+margin: auto;
+}
+
+.header__logo{
+width: 173px;
+margin: auto;
+padding-top: 45px;
+}
+
+.header__line{
+background-color: #545454;
+opacity: 70%;
+margin-top: 41px;
+height: 1px;
+}
+
+@media screen and (max-width:600px) {
+.header__logo{
+width: 150px;
+margin-left: 6%;
+padding-top: 6%;
+}
+
+.header__line{
+margin: 0 6%;
+margin-top: 32px;
+width: 88%;
+}
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Katia pérez Flores" />
+    <meta name="keywords" content="red social, México, viajes" />
+    <meta name="description" content="Proyecto del Sprint 7 para Triple Ten" />
+    <title>Alrrededor de México</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img src="./images/logo.svg" alt="logo around" class="header__logo" />
+        <div class="header__line"></div>
+      </header>
+      <main>
+        <section class="profile">
+          <div class="profile__avatar">
+            <img
+              src="images/perfil.jpg"
+              alt="foto de perfil"
+              class="profile__image"
+            />
+          </div>
+          <div class="profile__info">
+            <div class="profile__name-header">
+              <h3 class="profile__name">Katia Flores</h3>
+              <button class="profile__pencil"></button>
+            </div>
+            <p class="profile__descripcion">Docente</p>
+          </div>
+          <button class="profile__button-more">+</button>
+        </section>
+
+        <section class="popup">
+          <div class="popup__container">
+            <button class="popup__close-button">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M28.5708 0.286517L16 12.8573L3.42918 0.286515L0.286486 3.42921L12.8573 16L0.286486 28.5708L3.42918 31.7135L16 19.1427L28.5708 31.7135L31.7135 28.5708L19.1427 16L31.7135 3.42921L28.5708 0.286517Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <h2 class="popup__title">Editar perfil</h2>
+            <form class="popup__form">
+              <fieldset class="popup__form-complete">
+                <label for="name" class="popup__form-label"></label>
+                <input
+                  type="text"
+                  class="popup__form-item popup__form-name"
+                  id="name"
+                  name="name"
+                  placeholder="Nombre"
+                  required
+                />
+                <div class="popup__line"></div>
+                <label for="job" class="popup__form-label"></label>
+                <input
+                  type="text"
+                  class="popup__form-item popup__form-job"
+                  id="job"
+                  name="job"
+                  placeholder="Acerca de mí"
+                  required
+                />
+                <div class="popup__line"></div>
+                <button type="submit" class="popup__form-button">
+                  Guardar
+                </button>
+              </fieldset>
+            </form>
+          </div>
+        </section>
+
+        <section class="elements">
+          <div class="element">
+            <div class="element__image-all">
+              <img
+                src="./images/chiapas.jpg"
+                alt="Cañón del suminero"
+                class="element__image"
+              />
+            </div>
+            <div class="element__footer">
+              <p class="element__footer-name">Tuxtla Gutierrez, Chiapas</p>
+              <button class="element__button-like"></button>
+            </div>
+          </div>
+
+          <div class="element">
+            <div class="element__image-all">
+              <img
+                src="./images/guadalajara.jpg"
+                alt="Diana cazadora"
+                class="element__image"
+              />
+            </div>
+            <div class="element__footer">
+              <p class="element__footer-name">Guadalajara, Jalisco</p>
+              <button class="element__button-like"></button>
+            </div>
+          </div>
+
+          <div class="element">
+            <div class="element__image-all">
+              <img
+                src="./images/guanajuato.jpg"
+                alt="Centro de guanajuato"
+                class="element__image"
+              />
+            </div>
+            <div class="element__footer">
+              <p class="element__footer-name">Guanajuato, León</p>
+              <button class="element__button-like"></button>
+            </div>
+          </div>
+
+          <div class="element">
+            <div class="element__image-all">
+              <img
+                src="./images/nayarit.jpg"
+                alt="Arte huichol"
+                class="element__image"
+              />
+            </div>
+            <div class="element__footer">
+              <p class="element__footer-name">Sayulita, Nayarit</p>
+              <button class="element__button-like"></button>
+            </div>
+          </div>
+
+          <div class="element">
+            <div class="element__image-all">
+              <img
+                src="./images/oaxaca.jpg"
+                alt="Señor plantando maguey"
+                class="element__image"
+              />
+            </div>
+            <div class="element__footer">
+              <p class="element__footer-name">Santa Catarina, Oaxaca</p>
+              <button class="element__button-like"></button>
+            </div>
+          </div>
+
+          <div class="element">
+            <div class="element__image-all">
+              <img
+                src="./images/veracruz.jpg"
+                alt="Voladores de papantla"
+                class="element__image"
+              />
+            </div>
+            <div class="element__footer">
+              <p class="element__footer-name">Papantla, Veracruz</p>
+              <button class="element__button-like"></button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&#169; 2024. Katia Flores</p>
+      </footer>
+    </div>
+    <script src="./scripts/popup.js"></script>
+  </body>
+</html>
