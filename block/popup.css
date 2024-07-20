@@ -30,19 +30,19 @@ transform: translate(-50%, -50%);
 padding: 36px;
 }
 
-.popup__close-button{
-top: -43px;
+.popup__close{
+  border: none;
+  top: -43px;
 right: -32px;
 width: 32px;
 height: 32px;
 border-radius: 50%;
-border: none;
 background-color: transparent;
 position: absolute;
 }
 
 
-.popup__close-button:hover{ 
+.popup__close:hover{ 
 opacity: 0.8;
 cursor: pointer;
 filter: drop-shadow(0 4px 4px #000);
@@ -102,7 +102,7 @@ cursor: pointer;
     .popup__container {
       width: 210px;
     }
-    .popup__close-button {
+    .popup__close {
       width: 15px;
       height: 15px;
       right: 25px;
