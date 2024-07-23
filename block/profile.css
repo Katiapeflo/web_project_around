@@ -18,7 +18,7 @@ height: 120px;
 }
 
 .profile__info{
-width: 100%;
+width: 415px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -34,10 +34,12 @@ gap: 16px;
 }
 
 .profile__name{
-text-overflow: ellipsis;
 margin: 0;   
 font-size: 42px;
 font-weight: bold;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
 }
 
 .profile__pencil{
@@ -58,6 +60,9 @@ font-weight: bold;
 .profile__descripcion{
     font-size: 12px;
     margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .profile__button-more{
@@ -67,7 +72,7 @@ font-weight: bold;
     padding-inline: 60px;
     height: 40px;
     font-size: 20px;
-    margin: auto;
+    margin-top: 40px;
 }
 
 .profile__button-more:hover{
@@ -83,11 +88,14 @@ font-weight: bold;
 
 .profile__info{
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 .profile__name-header{
     width: auto;
+    align-items: center;
+    margin: 0;
 }
 
 .profile__button-more{
@@ -97,4 +105,5 @@ font-weight: bold;
 .profile__name{
     font-size: 22px;
 }
+
 }
